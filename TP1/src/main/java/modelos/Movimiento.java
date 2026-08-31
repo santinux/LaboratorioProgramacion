@@ -32,4 +32,9 @@ public class Movimiento
         {
                 return (this.monto);
         }
+        
+        public TipoMovimiento getTipo()
+        {
+                return (this.tipo);
+        }
 }
