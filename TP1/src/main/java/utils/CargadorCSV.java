@@ -61,7 +61,7 @@ public class CargadorCSV
                                 movimientos.add(movimiento);
                                 cargados++;
                         }
-                        System.out.println(cargados + " clientes cargados desde " + archivoCSV);
+                        System.out.println(cargados + " movimientos cargados desde " + archivoCSV);
                 } catch (IOException e) {
                         System.err.println("Error cargando CSV: " + e.getMessage());
                 }
