@@ -14,7 +14,7 @@ public class VistaPrincipal extends JFrame
         
         public VistaPrincipal()
         {
-                this.setTitle("Dominio Sin Nombre");
+                this.setTitle("Banco La Usura");
                 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 this.setSize(600, 400);
                 this.setLocationRelativeTo(null);
