@@ -17,10 +17,26 @@ public abstract class Usuario
                 this.apellido = apellido;
         }
         
+        // Abstracta porque hay polimorfismo según el tipo de usuario
+        protected abstract byte getTipoUsuario();
+        
+        protected int getId()
+        {
+                return (this.id);
+        }
+        
         protected void setId(int id)
         {
                 this.id = id;
         }
         
-        protected abstract byte getTipoUsuario();
+        protected int getNroDNI()
+        {
+                return (this.nroDNI);
+        }
+        
+        protected String getNombre()
+        {
+                return (this.nombre);
+        }
 }

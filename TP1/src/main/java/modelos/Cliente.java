@@ -8,14 +8,32 @@ public class Cliente extends Usuario
         }
         
         @Override
+        protected byte getTipoUsuario()
+        {
+                return 0;
+        }
+        
+        @Override
+        public int getId()
+        {
+                return (super.getId());
+        }
+        
+        @Override
         public void setId(int id)
         {
                 super.setId(id);
         }
         
         @Override
-        protected byte getTipoUsuario()
+        public int getNroDNI()
         {
-                return 0;
+                return (super.getNroDNI());
+        }
+        
+        @Override
+        public String getNombre()
+        {
+                return (super.getNombre());
         }
 }
