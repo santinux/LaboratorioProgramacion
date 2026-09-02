@@ -1,43 +1,59 @@
 package vistas;
 
+import controladores.ControladorLogin;
+
 import javax.swing.*;
 import java.awt.*;
 
 public class VistaPrincipal extends JFrame
 {
-        private JPanel contenedor;
-        private PanelLogin panelLogin;
+        private final CardLayout cardLayout;
+        private final JPanel contenedor;
+        private final PanelLogin panelLogin;
+        private final PanelCliente panelCliente;
         
         public VistaPrincipal()
         {
+                this.setTitle("Dominio Sin Nombre");
                 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 this.setSize(600, 400);
                 this.setLocationRelativeTo(null);
-                this.setTitle("Dominio Sin Nombre");
-                this.inicializarComponentes();
+                this.cardLayout = new CardLayout();
+                this.contenedor = new JPanel(cardLayout);
+                this.panelLogin = new PanelLogin();
+                this.panelCliente = new PanelCliente();
+                this.contenedor.add(panelLogin, "LOGIN");
+                this.contenedor.add(panelCliente, "CLIENTE");
+                this.getContentPane().add(contenedor);
+                this.setControladorLogin(new ControladorLogin(this));
         }
         
-        private void inicializarComponentes()
+        public void setControladorLogin(ControladorLogin controlador)
         {
-                // CardLayout para poder cambiar entre paneles
-                contenedor = new JPanel(new CardLayout());
-                panelLogin = new PanelLogin();
-                
-                // Temporal, debe delegar la autenticación
                 panelLogin.addLoginListener(e -> {
-                        String usuario = panelLogin.getUsuario();
-                        String password = panelLogin.getContrasegna();
-                        
-                        // Autenticación
-                        if (usuario.equals("admin") && password.equals("admin")) {
-                                // Temporal, debe cambiar al panel home de usuario
-                                panelLogin.setMensaje("Bienvenido, " + usuario, Color.GREEN);
-                        } else {
-                                panelLogin.setMensaje("Usuario o contraseña incorrectos", Color.RED);
-                        }
+                        String id = panelLogin.getId();
+                        String contrasegna = panelLogin.getContrasegna();
+                        controlador.iniciarSesion(id, contrasegna);
                 });
-                
-                contenedor.add(panelLogin, "LOGIN");
-                this.getContentPane().add(contenedor);
+        }
+        
+        public PanelLogin getPanelLogin()
+        {
+                return (this.panelLogin);
+        }
+        
+        public void mostrarPanelLogin()
+        {
+                cardLayout.show(contenedor, "LOGIN");
+        }
+        
+        public PanelCliente getPanelCliente()
+        {
+                return (this.panelCliente);
+        }
+        
+        public void mostrarPanelCliente()
+        {
+                cardLayout.show(contenedor, "CLIENTE");
         }
 }

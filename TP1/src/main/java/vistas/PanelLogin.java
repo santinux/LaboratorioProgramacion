@@ -6,24 +6,19 @@ import java.awt.event.ActionListener;
 
 public class PanelLogin extends JPanel
 {
-        private JTextField campoUsuario;
-        private JPasswordField campoContrasegna;
-        private JButton botonLogin;
-        private JLabel etiquetaMensaje;
+        private final JLabel lblId;
+        private final JLabel lblContrasegna;
+        private final JTextField campoId;
+        private final JPasswordField campoContrasegna;
+        private final JButton botonLogin;
+        private final JLabel etiquetaMensaje;
         
         public PanelLogin()
         {
-                this.inicializar();
-        }
-        
-        private void inicializar()
-        {
-                // Usamos GridBagLayout para un diseño más flexible
                 this.setLayout(new GridBagLayout());
                 GridBagConstraints gbc = new GridBagConstraints();
                 gbc.insets = new Insets(10, 10, 10, 10); // Márgenes
                 
-                // Título panel
                 JLabel lblTitulo = new JLabel("Iniciar Sesión");
                 lblTitulo.setFont(new Font("Arial", Font.BOLD, 20));
                 gbc.gridx = 0;
@@ -31,52 +26,52 @@ public class PanelLogin extends JPanel
                 gbc.gridwidth = 2;
                 this.add(lblTitulo, gbc);
                 
-                // Etiqueta usuario
-                gbc.gridwidth = 1;
+                this.lblId = new JLabel("Id Usuario");
+                gbc.gridx = 0;
                 gbc.gridy = 1;
-                gbc.gridx = 0;
+                gbc.gridwidth = 1;
                 gbc.anchor = GridBagConstraints.EAST;
-                this.add(new JLabel("Usuario:"), gbc);
+                this.add(lblId, gbc);
                 
-                // Campo usuario
-                campoUsuario = new JTextField(10);
+                this.campoId = new JTextField(10);
                 gbc.gridx = 1;
+                gbc.gridy = 1;
                 gbc.anchor = GridBagConstraints.WEST;
-                this.add(campoUsuario, gbc);
+                this.add(campoId, gbc);
                 
-                // Etiqueta contraseña
-                gbc.gridy = 2;
+                this.lblContrasegna = new JLabel("Contraseña");
                 gbc.gridx = 0;
+                gbc.gridy = 2;
                 gbc.anchor = GridBagConstraints.EAST;
-                this.add(new JLabel("Contraseña:"), gbc);
+                this.add(lblContrasegna, gbc);
                 
-                // Campo contraseña
-                campoContrasegna = new JPasswordField(10);
+                this.campoContrasegna = new JPasswordField(10);
                 gbc.gridx = 1;
+                gbc.gridy = 2;
                 gbc.anchor = GridBagConstraints.WEST;
                 this.add(campoContrasegna, gbc);
                 
-                // Botón ingresar
-                botonLogin = new JButton("Ingresar");
-                botonLogin.setBackground(Color.GRAY);
-                botonLogin.setForeground(Color.WHITE);
-                botonLogin.setFocusPainted(false);
-                gbc.gridy = 3;
+                this.botonLogin = new JButton("Ingresar");
+                this.botonLogin.setBackground(Color.GRAY);
+                this.botonLogin.setForeground(Color.WHITE);
+                this.botonLogin.setFocusPainted(false);
                 gbc.gridx = 0;
+                gbc.gridy = 3;
                 gbc.gridwidth = 2;
                 gbc.anchor = GridBagConstraints.CENTER;
                 this.add(botonLogin, gbc);
                 
-                // Etiqueta para mensajes de error
                 etiquetaMensaje = new JLabel(" ");
                 etiquetaMensaje.setForeground(Color.RED);
+                gbc.gridx = 0;
                 gbc.gridy = 4;
+                gbc.anchor = GridBagConstraints.CENTER;
                 this.add(etiquetaMensaje, gbc);
         }
         
-        public String getUsuario()
+        public String getId()
         {
-                return (campoUsuario.getText());
+                return (campoId.getText());
         }
         
         public String getContrasegna()
@@ -97,7 +92,7 @@ public class PanelLogin extends JPanel
         
         public void limpiarCampos()
         {
-                campoUsuario.setText("");
+                campoId.setText("");
                 campoContrasegna.setText("");
         }
 }
