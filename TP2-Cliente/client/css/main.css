@@ -1,0 +1,48 @@
+main {
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     */
+    padding: 1rem;
+
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 2rem;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            button {
+                background-color: olive;
+                border: darkolivegreen;
+                border-radius: 5px;
+                padding: 5px 10px;
+                display: inline-block;
+                font-size: 1.2rem;
+                cursor: pointer;
+
+                a {
+                    text-align: center;
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .img-izq {
+            width: 325px;
+            height: 300px;
+        }
+
+        .img-der {
+            width: 300px;
+            height: 300px;
+        }
+    }
+}

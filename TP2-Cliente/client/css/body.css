@@ -1,0 +1,14 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: beige;
+    font-family: serif;
+    font-size: 1rem;
+}
