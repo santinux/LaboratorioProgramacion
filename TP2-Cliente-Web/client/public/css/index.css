@@ -1,0 +1,37 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 2rem;
+
+    p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-weight: normal;
+
+        button {
+            background-color: olive;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            display: inline-block;
+            align-self: center;
+            font-family: inherit;
+            font-weight: bold;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    }
+
+    .img-izq {
+        width: 325px;
+        height: 300px;
+    }
+
+    .img-der {
+        width: 300px;
+        height: 300px;
+    }
+}
