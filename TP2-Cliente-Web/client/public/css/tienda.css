@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/049/439/269/large/brendan-carpio-presentation-14.jpg?1652481093");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+.dinero {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 246, 247);
+    min-width: 30px;
+}
+
+.armas {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta-arma {
+    width: 250px;
+    padding: 20px;
+    background-color: #06222e;
+    color: white;
+    border: 2px solid #888;
+    border-radius: 10px;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contador button {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.menos,
+.mas {
+    background-color: #043d36;
+    color: white;
+}
+
+.contador button:hover {
+    background-color: #777;
+}
+.stock {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(87, 212, 226);
+    min-width: 30px;
+}
+.stock.sin-stock {
+    color: red;
+}
+
+.cantidad {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 246, 247);
+    min-width: 30px;
+}
+.precio {
+    color: rgb(241, 246, 247);
+}
+.precioTotal {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(241, 246, 247);
+    min-width: 30px;
+}
+
+.cantidad.sin-stock {
+    color: red;
+}
+.comprar {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #065047;
+    color: white;
+    min-width: 140px;
+}
+
+
+
+}

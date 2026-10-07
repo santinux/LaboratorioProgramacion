@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi página</title>
+
+        <link rel="stylesheet"
+            href="/TP2-Cliente-Web/client/public/css/tienda.css">
+    </head>
+
+    <body>
+
+        <h1 class="title">Tienda de Armas</h1>
+        <p><strong>Dinero:</strong> $<span class="dinero">170</span></p>
+        <section class="armas">
+            <article class="tarjeta-arma">
+
+                <h2>Daga</h2>
+
+                <img src="../imagenes/Daga.png" alt="Daga">
+
+                <p><strong>Daño:</strong> 1d4 Perforante</p>
+                <p><strong>Propiedad:</strong> Ligera, Arrojadiza (20/60 ft),Sutil</p>
+                <p><strong>Precio:</strong> $<span class="precio">6</span></p>
+                
+                <p><strong>Stock:</strong> <span class="stock">10</span></p>
+                
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> 
+                </div>
+                    <p><strong>Precio total:$</strong><span class="precioTotal">0</span></p>
+                    
+                    <p></p>
+                    <button class="comprar">Comprar</button> 
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Hacha de mano</h2>
+
+                <img src="../imagenes/Hacha_De_Mano.png" alt="Hacha de mano">
+
+                <p><strong>Daño:</strong> 1d6 Cortante</p>
+                <p><strong>Propiedad:</strong> Arrojadiza (20/60 ft), Ligera</p>
+                <p><strong>Precio:</strong> $12</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Espada corta</h2>
+
+                <img src="../imagenes/Espada_Corta.png" alt="Espada corta">
+
+                <p><strong>Daño:</strong> 1d6 Perforante</p>
+                <p><strong>Propiedad:</strong> Ligera, Sutil</p>
+                <p><strong>Precio:</strong> $16</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Martillo ligero</h2>
+
+                <img src="../imagenes/Martillo_Ligero.png"
+                    alt="Martillo ligero">
+
+                <p><strong>Daño:</strong> 1d4 Contundente</p>
+                <p><strong>Propiedad:</strong> Ligera</p>
+                <p><strong>Precio:</strong> $4</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Espada larga</h2>
+
+                <img src="../imagenes/Espada_Larga.png" alt="Espada larga">
+
+                <p><strong>Daño:</strong> 1d8 Cortante</p>
+                <p><strong>Propiedad:</strong> Versátil (1d10)</p>
+                <p><strong>Precio:</strong> $30</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Arco corto</h2>
+
+                <img src="../imagenes/Arco_Corto.png" alt="Arco corto">
+
+                <p><strong>Daño:</strong> 1d6 Perforante</p>
+                <p><strong>Propiedad:</strong> Munición (80/320 ft), Dos manos</p>
+                <p><strong>Precio:</strong> $30</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Arco largo</h2>
+
+                <img src="../imagenes/Arco_Largo.png" alt="Arco largo">
+
+                <p><strong>Daño:</strong> 1d8 Perforante</p>
+                <p><strong>Propiedad:</strong> Munición (150/600 ft), Dos manos, Pesada</p>
+                <p><strong>Precio:</strong> $60</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Ballesta ligera</h2>
+
+                <img src="../imagenes/Ballesta_Ligera.png"
+                    alt="Ballesta ligera">
+
+                <p><strong>Daño:</strong> 1d8 Perforante</p>
+                <p><strong>Propiedad:</strong> Munición (80/320 ft), Recarga, Dos manos</p>
+                <p><strong>Precio:</strong> $50</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+
+            <article class="tarjeta-arma">
+
+                <h2>Honda</h2>
+
+                <img src="../imagenes/Honda.png" alt="Honda">
+
+                <p><strong>Daño:</strong> 1d4 Contundente</p>
+                <p><strong>Propiedad:</strong> Munición (30/120 ft)</p>
+                <p><strong>Precio:</strong> $2</p>
+                <p><strong>Stock:</strong></p>
+                <span class="stock">10</span>
+                <div class="contador">
+                    <button class="menos">−</button>
+                    <span class="cantidad">0</span>
+                    <button class="mas">+</button> </div>
+            </article>
+        </section>
+
+        <script src="../js/tienda.js"></script>
+    </body>
+
+</html>
