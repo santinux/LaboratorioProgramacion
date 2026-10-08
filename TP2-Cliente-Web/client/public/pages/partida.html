@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duende Login</title>
+    <title>Link, Héroe del Tiempo</title> <!-- Debe cambiar según el nombre de partida -->
     <link rel="stylesheet" href="/css/body.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -22,13 +22,27 @@
     </header>
     <main>
         <h1>Partida: <span>Link, Héroe del Tiempo (#1234)</span></h1>
-        <div class="contenedor-tiendas">
+        <div class="contenedor">
             <h2>Tiendas Disponibles</h2>
             <div class="listado-tiendas">
-                <div>TIENDA 1</div>
-                <div>TIENDA 2</div>
-                <div>TIENDA 3</div>
-                <div>TIENDA 4</div>
+                <a href="tienda.html">
+                    <div class="card-tienda">
+                        Tienda de Armas: "Lo de Lennon"
+                        <span class="tienda-abierta">Abierto</span>
+                    </div>
+                </a>
+                <div class="card-tienda">
+                    Herrería: "Los Enanos"
+                    <span class="tienda-cerrada">Cerrado</span>
+                </div>
+                <div class="card-tienda">
+                    Carpintería: "Lo de Geppetto"
+                    <span class="tienda-cerrada">Cerrado</span>
+                </div>
+                <div class="card-tienda">
+                    Tienda de Pociones: "Lo de Yiya"
+                    <span class="tienda-cerrada">Cerrado</span>
+                </div>
             </div>
         </div>
     </main>
