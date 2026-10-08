@@ -4,16 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página</title>
+    <link rel="stylesheet" href="/TP2-Cliente-Web/client/public/css/body.css">
+    <link rel="stylesheet" href="/TP2-Cliente-Web/client/public/css/header.css">
+    <link rel="stylesheet" href="/TP2-Cliente-Web/client/public/css/main.css">
+    <title>Seleccion</title>
 
     <link rel="stylesheet" href="/TP2-Cliente-Web/client/public/css/seleccion.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+    </style>
 </head>
 
 <body>
 
-    <h1>Bienvenido a mi página</h1>
+    <header>
+            <!-- Barra Brava -->
 
-    <p>Esta página tiene una imagen de fondo.</p>
+            <h1 class="tarjeta-tienda">Seleccione un local <img src="../imagenes/Hacha_De_Mano.png" alt="Hacha de mano"></h1>
+    </header>
+
+    <main class="ventana">
+
+        <!-- Contenedor de locales -->
+        <h2>Locales</h2>
+
+        <section class="tiendas-locales">
+
+            <!-- Local 1 -->
+            <a href="tienda.html" class="tarjeta-tienda">
+
+                <p>Tienda de Armas</p>
+                 <img src="../imagenes/Tienda_Armas.png" alt="Tienda de Armas">
+                 <p></p>
+                <span> ABIERTO </span>
+            </a> 
+
+            <a href="tienda.html" class="local abierto">
+
+                <p>Tienda de Armas</p>
+
+                <span> ABIERTO </span>
+
+
+            </a> 
+
+                <!-- Local 2 -->
+            <a href="tienda-de-herreria.html" class="tarjeta-tienda-cerrado">
+
+                <p>Herreria</p>
+                <img src="../imagenes/Herreria.png" alt="Herreria">
+
+                <span> CERRADO </span>
+
+            </a> 
+
+                <!-- Local 3 -->
+            <a href="tienda-de-carpinteria.html" class="local abierto">
+
+                <p>Carpinteria</p>
+
+                <span> ABIERTO </span>
+            
+
+            </a> 
+
+
+                 <!-- Local 4 -->
+            <a href="tienda-de-pociones.html" class="local abierto">
+
+                <p>Pociones </p>
+
+                <span> ABIERTO </span>
+
+            </a> 
+
+        </section>
+        </main>
 
 </body>
 

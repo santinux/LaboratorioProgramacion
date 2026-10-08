@@ -1,8 +1,9 @@
+/* CONTENEDOR DE LOCALES */
 body {
     margin: 0;
     min-height: 100vh;
 
-    background-image: url("https://i.redd.it/42ant32m5nh31.jpg");
+    background-image: url("../imagenes/Tiendas.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,4 +11,109 @@ body {
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
+}
+
+
+
+.tiendas-locales {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* separación horizontal y vertical */
+    gap: 100px;
+}
+
+
+/* LOCAL */
+
+.local {
+    width: 150px;
+    height: 91px;
+    overflow: hidden;
+
+
+    border: 2px solid #333;
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    box-sizing: border-box;
+    color:#000000;
+    text-decoration: none;
+}
+
+
+/* NOMBRE */
+
+.local p {
+    margin: 5px 10px 7px 10px;
+
+    font-family: cursive;
+    font-size: 17px;
+    line-height: 1.1;
+}
+
+
+/* ESTADO */
+
+.local span {
+    padding: 3px 8px;
+
+    border: 1px solid #555;
+    border-radius: 5px;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+
+/* ===================== */
+/* LOCAL ABIERTO */
+/* ===================== */
+
+.local.abierto {
+    background-color: #49e75e;
+
+}
+
+.local.abierto span {
+    background-color: #3fd84e;
+}
+
+
+/* ===================== */
+/* LOCAL CERRADO */
+/* ===================== */
+
+.local.cerrado {
+    background-color: #ed7777;
+}
+
+.local.cerrado span {
+    background-color: #f5b0b0;
+}
+
+/* prueba*/
+.tarjeta-tienda {
+    width: 250px;
+    padding: 20px;
+    background-color: #06222e;
+    color: white;
+     font-family: Arial, sans-serif;
+    border: 2px solid #888;
+    border-radius: 10px;
+}
+.tarjeta-tienda-cerrado {
+    width: 250px;
+    padding: 20px;
+    background-color: #851111;
+    color: white;
+     font-family: Arial, sans-serif;
+    border: 2px solid #888;
+    border-radius: 10px;
 }

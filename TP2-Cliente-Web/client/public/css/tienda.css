@@ -87,7 +87,9 @@ body {
     color: rgb(241, 246, 247);
     min-width: 30px;
 }
-
+.precioTotal.sin-stock {
+    color: red;
+}
 .cantidad.sin-stock {
     color: red;
 }
