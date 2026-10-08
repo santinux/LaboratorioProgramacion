@@ -1,13 +1,79 @@
-body {
-    margin: 0;
-    min-height: 100vh;
+/* CONTENEDOR DE LOCALES */
 
-    background-image: url("https://i.redd.it/42ant32m5nh31.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.tiendas-locales {
+    display: flex;
+    flex-wrap: wrap;
 
-    color: white;
+    /* separación horizontal y vertical */
+    gap: 25px;
+}
+
+
+/* LOCAL */
+
+.local {
+    width: 127px;
+    height: 91px;
+
+    border: 2px solid #333;
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
+
+    box-sizing: border-box;
+}
+
+
+/* NOMBRE */
+
+.local p {
+    margin: 0 0 7px 0;
+
+    font-family: cursive;
+    font-size: 17px;
+    line-height: 1.1;
+}
+
+
+/* ESTADO */
+
+.local span {
+    padding: 3px 8px;
+
+    border: 1px solid #555;
+    border-radius: 5px;
+
     font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+
+/* ===================== */
+/* LOCAL ABIERTO */
+/* ===================== */
+
+.local-abierto {
+    background-color: #7ee08b;
+}
+
+.local-abierto span {
+    background-color: #b8f5be;
+}
+
+
+/* ===================== */
+/* LOCAL CERRADO */
+/* ===================== */
+
+.local-cerrado {
+    background-color: #ed7777;
+}
+
+.local-cerrado span {
+    background-color: #f5b0b0;
 }
