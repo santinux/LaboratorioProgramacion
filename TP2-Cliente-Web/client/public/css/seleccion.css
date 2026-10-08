@@ -5,15 +5,17 @@
     flex-wrap: wrap;
 
     /* separación horizontal y vertical */
-    gap: 25px;
+    gap: 100px;
 }
 
 
 /* LOCAL */
 
 .local {
-    width: 127px;
+    width: 150px;
     height: 91px;
+    overflow: hidden;
+
 
     border: 2px solid #333;
     border-radius: 18px;
@@ -26,13 +28,15 @@
     text-align: center;
 
     box-sizing: border-box;
+    color:#000000;
+    text-decoration: none;
 }
 
 
 /* NOMBRE */
 
 .local p {
-    margin: 0 0 7px 0;
+    margin: 5px 10px 7px 10px;
 
     font-family: cursive;
     font-size: 17px;
@@ -57,12 +61,13 @@
 /* LOCAL ABIERTO */
 /* ===================== */
 
-.local-abierto {
-    background-color: #7ee08b;
+.local.abierto {
+    background-color: #49e75e;
+
 }
 
-.local-abierto span {
-    background-color: #b8f5be;
+.local.abierto span {
+    background-color: #3fd84e;
 }
 
 
@@ -70,10 +75,10 @@
 /* LOCAL CERRADO */
 /* ===================== */
 
-.local-cerrado {
+.local.cerrado {
     background-color: #ed7777;
 }
 
-.local-cerrado span {
+.local.cerrado span {
     background-color: #f5b0b0;
 }
