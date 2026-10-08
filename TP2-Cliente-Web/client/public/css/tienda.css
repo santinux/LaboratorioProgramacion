@@ -1,100 +1,99 @@
-main {
+.dinero {
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 30px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
     background-image: url("../assets/img/Armeria.jpg");
-    /*background-image: url("https://cdnb.artstation.com/p/assets/images/images/049/439/269/large/brendan-carpio-presentation-14.jpg?1652481093");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 
+.armas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta-arma {
+    width: 250px;
+    padding: 20px;
+    background-color: #06222e;
     color: white;
-    text-align: center;
+    border: 2px solid #888;
+    border-radius: 10px;
+}
 
-    .dinero {
-        font-size: 22px;
-        font-weight: bold;
-        color: rgb(241, 246, 247);
-        min-width: 30px;
-    }
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
 
-    .armas {
-        /*background-image: url("../assets/img/Armeria.jpg");*/
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
+.contador button {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
 
-    .tarjeta-arma {
-        width: 250px;
-        padding: 20px;
-        background-color: #06222e;
-        color: white;
-        border: 2px solid #888;
-        border-radius: 10px;
-    }
+.menos, .mas {
+    background-color: #043d36;
+    color: white;
+}
 
-    .contador {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        margin-top: 20px;
-    }
+.contador button:hover {
+    background-color: #777;
+}
 
-    .contador button {
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
-        font-weight: bold;
-        cursor: pointer;
-        border: none;
-        border-radius: 5px;
-    }
+.stock {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(87, 212, 226);
+    min-width: 30px;
+}
 
-    .menos, .mas {
-        background-color: #043d36;
-        color: white;
-    }
+.cantidad {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 246, 247);
+    min-width: 30px;
+}
 
-    .contador button:hover {
-        background-color: #777;
-    }
+.precio {
+    color: rgb(241, 246, 247);
+}
 
-    .stock {
-        font-size: 18px;
-        font-weight: bold;
-        color: rgb(87, 212, 226);
-        min-width: 30px;
-    }
+.precioTotal {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(241, 246, 247);
+    min-width: 30px;
+}
 
-    .cantidad {
-        font-size: 22px;
-        font-weight: bold;
-        color: rgb(241, 246, 247);
-        min-width: 30px;
-    }
+.cantidad, .sin-stock {
+    color: red;
+}
 
-    .precio {
-        color: rgb(241, 246, 247);
-    }
-
-    .precioTotal {
-        font-size: 18px;
-        font-weight: bold;
-        color: rgb(241, 246, 247);
-        min-width: 30px;
-    }
-
-    .cantidad, .sin-stock {
-        color: red;
-    }
-
-    .comprar {
-        border-radius: 10px;
-        font-family: inherit;
-        font-size: 1.2rem;
-        font-weight: bold;
-        background-color: #043d36;
-        color: white;
-        min-width: 140px;
-    }
+.comprar {
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #043d36;
+    color: white;
+    min-width: 140px;
 }
