@@ -16,3 +16,6 @@ target/
 
 ### PNPM ###
 node_modules/
+
+### Proyecto ###
+beta/
