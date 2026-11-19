@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nombre": "ganondorf",
+    "password": "$2b$10$5.7s5Kt.rkYzD0R3aw6bZOC6wR23ostEw4MUI27YUapbPLPZdKz/y"
+  },
+  {
+    "id": 2,
+    "nombre": "Aragorn",
+    "password": "$2b$10$AdLCUJ8bxnido0yZoLAi/OS4nw6HfDDpb3eJix1HNkMwSXwRRh55W"
+  },
+  {
+    "id": 3,
+    "nombre": "Legolas",
+    "password": "$2b$10$VDPxKBFpy9far4YSrEj5zuQWnG9Q3rDsH9TMDFewnHe1tVTI8G9Qm"
+  },
+  {
+    "id": 4,
+    "nombre": "Gimli",
+    "password": "$2b$10$LSzBajvbGb7LuduiVhyB8.AwOKayTCP5rjkb8.tcS2LylWcK448MC"
+  },
+  {
+    "id": 5,
+    "nombre": "Frodo",
+    "password": "$2b$10$qfue/H9p6QNu.zcah0f4ge9t/rXu4OgIP1VrNZb5c7e22OXC9FQN."
+  }
+]

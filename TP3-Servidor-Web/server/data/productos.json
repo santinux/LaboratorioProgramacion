@@ -1,0 +1,21 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Espada medieval",
+        "precio": 1500,
+        "idNegocio": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Escudo de madera",
+        "precio": 800,
+        "idNegocio": 2
+    },
+    {
+        "id": 3,
+        "nombre": "Poción de vida",
+        "precio": 300,
+        "idNegocio": 3
+    }
+]

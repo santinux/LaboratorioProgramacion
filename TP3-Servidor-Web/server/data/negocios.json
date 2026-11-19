@@ -1,0 +1,36 @@
+[
+
+
+    {
+        "id": 1,
+        "nombre": "Armería",
+        "descripcion": "Venta de espadas, hachas, arcos y otras armas",
+        "imagen": "assets/img/armeria.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Herrería",
+        "descripcion": "Venta de armaduras, escudos y equipamiento de protección",
+        "imagen": "assets/img/herreria.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Alquimia",
+        "descripcion": "Venta de pociones, brebajes y objetos mágicos",
+        "imagen": "assets/img/alquimia.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Taberna",
+        "descripcion": "Un lugar para descansar y conseguir provisiones",
+        "imagen": "assets/img/taberna.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Mercado",
+        "descripcion": "Venta de alimentos, materiales y artículos variados",
+        "imagen": "assets/img/mercado.jpg"
+    }
+
+
+]
