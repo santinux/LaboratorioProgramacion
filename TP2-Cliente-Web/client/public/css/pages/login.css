@@ -1,15 +1,10 @@
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    font-size: 2rem;
-
-    p {
+#main-login {
+    form {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        font-weight: normal;
+        padding-inline: 20rem;
+        gap: 1rem;
 
         button {
             background-color: olive;
@@ -23,15 +18,5 @@ section {
             font-size: 1.2rem;
             cursor: pointer;
         }
-    }
-
-    .img-izq {
-        width: 325px;
-        height: 300px;
-    }
-
-    .img-der {
-        width: 300px;
-        height: 300px;
     }
 }
