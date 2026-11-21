@@ -1,6 +1,4 @@
 [
-
-
     {
         "id": 1,
         "nombre": "Armería",
@@ -31,6 +29,4 @@
         "descripcion": "Venta de alimentos, materiales y artículos variados",
         "imagen": "assets/img/mercado.jpg"
     }
-
-
 ]

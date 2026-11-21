@@ -1,4 +1,4 @@
-
+// TODO Convertir a ES6
 const fs = require('fs').promises;
 const path = require('path');
 

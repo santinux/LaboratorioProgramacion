@@ -2,7 +2,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-const rutaArchivo = path.join(__dirname, '../data/negocios.json');
+const rutaArchivo = path.join(__dirname, '../data/tiendas.json');
 
 // Funciones auxiliares
 async function leerNegocios() {

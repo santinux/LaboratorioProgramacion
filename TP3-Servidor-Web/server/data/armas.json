@@ -1,6 +1,7 @@
-[   
+[
     {
-        "tipoObjeto": "arma",
+        "id": 1,
+        "tipo": "arma",
         "nombre": "Daga",
         "daño": "1d4 Perforante",
         "propiedad": "Ligera, Arrojadiza (20/60 ft), Sutil",
@@ -10,7 +11,8 @@
         "imagen": "../assets/img/armas/Daga.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 2,
+        "tipo": "arma",
         "nombre": "Daga de fuego",
         "daño": "1d4 Perforante",
         "propiedad": "Ligera, Arrojadiza (20/60 ft), Sutil",
@@ -20,7 +22,8 @@
         "imagen": "../assets/img/armas/Daga.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 3,
+        "tipo": "arma",
         "nombre": "Hacha de mano",
         "daño": "1d6 Cortante",
         "propiedad": "Arrojadiza (20/60 ft), Ligera",
@@ -30,7 +33,8 @@
         "imagen": "../assets/img/armas/Hacha_De_Mano.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 4,
+        "tipo": "arma",
         "nombre": "Espada corta",
         "daño": "1d6 Perforante",
         "propiedad": "Ligera, Sutil",
@@ -40,7 +44,8 @@
         "imagen": "../assets/img/armas/Espada_Corta.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 5,
+        "tipo": "arma",
         "nombre": "Martillo ligero",
         "daño": "1d4 Contundente",
         "propiedad": "Ligera",
@@ -50,7 +55,8 @@
         "imagen": "../assets/img/armas/Martillo_Ligero.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 6,
+        "tipo": "arma",
         "nombre": "Espada larga",
         "daño": "1d8 Cortante",
         "propiedad": "Versátil (1d10)",
@@ -60,7 +66,8 @@
         "imagen": "../assets/img/armas/Espada_Larga.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 7,
+        "tipo": "arma",
         "nombre": "Arco corto",
         "daño": "1d6 Perforante",
         "propiedad": "Munición (80/320 ft), Dos manos",
@@ -70,7 +77,8 @@
         "imagen": "../assets/img/armas/Arco_Corto.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 8,
+        "tipo": "arma",
         "nombre": "Arco corto de hielo",
         "daño": "1d6 Perforante",
         "propiedad": "Munición (80/320 ft), Dos manos",
@@ -80,7 +88,8 @@
         "imagen": "../assets/img/armas/Arco_Corto.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 9,
+        "tipo": "arma",
         "nombre": "Arco largo",
         "daño": "1d8 Perforante",
         "propiedad": "Munición (150/600 ft), Dos manos, Pesada",
@@ -90,7 +99,8 @@
         "imagen": "../assets/img/armas/Arco_Largo.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 10,
+        "tipo": "arma",
         "nombre": "Ballesta ligera",
         "daño": "1d8 Perforante",
         "propiedad": "Munición (80/320 ft), Recarga, Dos manos",
@@ -100,7 +110,8 @@
         "imagen": "../assets/img/armas/Ballesta_Ligera.png"
     },
     {
-        "tipoObjeto": "arma",
+        "id": 11,
+        "tipo": "arma",
         "nombre": "Honda",
         "daño": "1d4 Contundente",
         "propiedad": "Munición (30/120 ft)",
@@ -109,8 +120,4 @@
         "stock": 0,
         "imagen": "../assets/img/armas/Honda.png"
     }
-
 ]
-
-
-

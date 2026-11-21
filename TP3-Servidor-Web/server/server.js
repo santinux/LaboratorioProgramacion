@@ -1,27 +1,29 @@
+// TODO Convertir a ES6
 const express = require('express');
 const path = require('path');
 
+const PORT = process.env.PORT || 3000;
 const app = express();
 
+app.disable('x-powered-by');
+app.use(express.static('public'));
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, 'public')));
-
-// PRODUCTOS
-const productoRoutes = require('./routes/productoRoutes');
-app.use('/api/productos', productoRoutes);
+// Productos
+const productosRoutes = require('./routes/productosRoutes');
+app.use('/api/productos', productosRoutes);
 
 // USUARIOS
-const usuarioRoutes = require('./routes/usuarioRoutes');
-app.use('/api/usuarios', usuarioRoutes);
+//const usuarioRoutes = require('./routes/usuarioRoutes');
+//app.use('/api/usuarios', usuarioRoutes);
 
 // NEGOCIOS
-const negocioRoutes = require('./routes/negocioRoutes');
-app.use('/api/negocios', negocioRoutes);
+//const negocioRoutes = require('./routes/negocioRoutes');
+//app.use('/api/negocios', negocioRoutes);
 
 // PARTIDAS
-const partidaRoutes = require('./routes/partidaRoutes');
-app.use('/api/partidas', partidaRoutes);
+//const partidaRoutes = require('./routes/partidaRoutes');
+//app.use('/api/partidas', partidaRoutes);
 
 // Rutas inexistentes
 app.use((req, res, next) => {
@@ -40,11 +42,6 @@ app.use((error, req, res, next) => {
 
     console.error(error);
 
-    res.status(500).json({
-        error: 'Error interno del servidor'
-    });
-});
-
-app.listen(3000, () => {
-    console.log('Servidor escuchando en el puerto 3000');
+app.listen(PORT, () => {
+    console.log(`Servidor escuchando en el puerto ${PORT}`);
 });

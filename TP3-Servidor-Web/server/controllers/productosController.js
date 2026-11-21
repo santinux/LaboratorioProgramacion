@@ -1,5 +1,5 @@
-
-const productoService = require('../services/productoService');
+// TODO Convertir a ES6
+const productoService = require('../services/productosService');
 const negocioService = require('../services/negocioService');
 
 // GET: obtener productos paginados
