@@ -1,4 +1,4 @@
-// TODO Convertir a ES6
+// TODO Convertir a ES6 y migrar servicios a model para consistencia con la DB
 const fs = require('fs').promises;
 const path = require('path');
 
