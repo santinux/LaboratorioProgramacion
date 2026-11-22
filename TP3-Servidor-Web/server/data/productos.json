@@ -1,21 +1,123 @@
-
 [
     {
-        "id": 1,
-        "nombre": "Espada medieval",
-        "precio": 1500,
-        "idNegocio": 1
+        "id": "1",
+        "tipo": "arma",
+        "nombre": "Daga",
+        "daño": "1d4 Perforante",
+        "propiedad": "Ligera, Arrojadiza (20/60 ft), Sutil",
+        "caracteristica": "",
+        "precio": "6",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Daga.png"
     },
     {
-        "id": 2,
-        "nombre": "Escudo de madera",
-        "precio": 800,
-        "idNegocio": 2
+        "id": "2",
+        "tipo": "arma",
+        "nombre": "Daga de fuego",
+        "daño": "1d4 Perforante",
+        "propiedad": "Ligera, Arrojadiza (20/60 ft), Sutil",
+        "caracteristica": "Una vez por turno al golpear con la daga realiza 1d6 de daño de fuego adicional",
+        "precio": "160",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Daga.png"
     },
     {
-        "id": 3,
-        "nombre": "Poción de vida",
-        "precio": 300,
-        "idNegocio": 3
+        "id": "3",
+        "tipo": "arma",
+        "nombre": "Hacha de mano",
+        "daño": "1d6 Cortante",
+        "propiedad": "Arrojadiza (20/60 ft), Ligera",
+        "caracteristica": "",
+        "precio": "12",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Hacha_De_Mano.png"
+    },
+    {
+        "id": "4",
+        "tipo": "arma",
+        "nombre": "Espada corta",
+        "daño": "1d6 Perforante",
+        "propiedad": "Ligera, Sutil",
+        "caracteristica": "",
+        "precio": "16",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Espada_Corta.png"
+    },
+    {
+        "id": "5",
+        "tipo": "arma",
+        "nombre": "Martillo ligero",
+        "daño": "1d4 Contundente",
+        "propiedad": "Ligera",
+        "caracteristica": "",
+        "precio": "4",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Martillo_Ligero.png"
+    },
+    {
+        "id": "6",
+        "tipo": "arma",
+        "nombre": "Espada larga",
+        "daño": "1d8 Cortante",
+        "propiedad": "Versátil (1d10)",
+        "caracteristica": "",
+        "precio": "30",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Espada_Larga.png"
+    },
+    {
+        "id": "7",
+        "tipo": "arma",
+        "nombre": "Arco corto",
+        "daño": "1d6 Perforante",
+        "propiedad": "Munición (80/320 ft), Dos manos",
+        "caracteristica": "",
+        "precio": "30",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Arco_Corto.png"
+    },
+    {
+        "id": "8",
+        "tipo": "arma",
+        "nombre": "Arco corto de hielo",
+        "daño": "1d6 Perforante",
+        "propiedad": "Munición (80/320 ft), Dos manos",
+        "caracteristica": "Una vez por turno al golpear con el arco realiza 1d4 de daño de hielo adicional, y redsuce la velocidad del objetivo en 10 pies hasta el final de su próximo turno",
+        "precio": "30",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Arco_Corto.png"
+    },
+    {
+        "id": "9",
+        "tipo": "arma",
+        "nombre": "Arco largo",
+        "daño": "1d8 Perforante",
+        "propiedad": "Munición (150/600 ft), Dos manos, Pesada",
+        "caracteristica": "",
+        "precio": "60",
+        "stock": "10",
+        "imagen": "../assets/img/armas/Arco_Largo.png"
+    },
+    {
+        "id": "10",
+        "tipo": "arma",
+        "nombre": "Ballesta ligera",
+        "daño": "1d8 Perforante",
+        "propiedad": "Munición (80/320 ft), Recarga, Dos manos",
+        "caracteristica": "",
+        "precio": "50",
+        "stock": "0",
+        "imagen": "../assets/img/armas/Ballesta_Ligera.png"
+    },
+    {
+        "id": "11",
+        "tipo": "arma",
+        "nombre": "Honda",
+        "daño": "1d4 Contundente",
+        "propiedad": "Munición (30/120 ft)",
+        "caracteristica": "",
+        "precio": "2",
+        "stock": "0",
+        "imagen": "../assets/img/armas/Honda.png"
     }
 ]
