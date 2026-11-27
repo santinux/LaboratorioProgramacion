@@ -1,31 +1,36 @@
 [
     {
-        "id": 1,
-        "nombre": "Armería",
+        "id": "1",
+        "tipo": "Armería",
+        "nombre": "Lo de Lennon",
         "descripcion": "Venta de espadas, hachas, arcos y otras armas",
         "imagen": "assets/img/armeria.jpg"
     },
     {
-        "id": 2,
-        "nombre": "Herrería",
+        "id": "2",
+        "tipo": "Herrería",
+        "nombre": "El yunque de Völundr",
         "descripcion": "Venta de armaduras, escudos y equipamiento de protección",
         "imagen": "assets/img/herreria.jpg"
     },
     {
-        "id": 3,
-        "nombre": "Alquimia",
+        "id": "3",
+        "tipo": "Alquimia",
+        "nombre": "El almacén de Yiya Murano",
         "descripcion": "Venta de pociones, brebajes y objetos mágicos",
         "imagen": "assets/img/alquimia.jpg"
     },
     {
-        "id": 4,
-        "nombre": "Taberna",
+        "id": "4",
+        "tipo": "Taberna",
+        "nombre": "La taberna de Moe",
         "descripcion": "Un lugar para descansar y conseguir provisiones",
         "imagen": "assets/img/taberna.jpg"
     },
     {
-        "id": 5,
-        "nombre": "Mercado",
+        "id": "5",
+        "tipo": "Mercado",
+        "nombre": "Topsy",
         "descripcion": "Venta de alimentos, materiales y artículos variados",
         "imagen": "assets/img/mercado.jpg"
     }
