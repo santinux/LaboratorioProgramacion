@@ -8,7 +8,7 @@
         "caracteristica": "",
         "precio": "6",
         "stock": "10",
-        "imagen": "../assets/img/armas/Daga.png"
+        "imagen": "/img/armas/Daga.png"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "caracteristica": "Una vez por turno al golpear con la daga realiza 1d6 de daño de fuego adicional",
         "precio": "160",
         "stock": "10",
-        "imagen": "../assets/img/armas/Daga.png"
+        "imagen": "/img/armas/Daga.png"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "caracteristica": "",
         "precio": "12",
         "stock": "10",
-        "imagen": "../assets/img/armas/Hacha_De_Mano.png"
+        "imagen": "/img/armas/Hacha_De_Mano.png"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "caracteristica": "",
         "precio": "16",
         "stock": "10",
-        "imagen": "../assets/img/armas/Espada_Corta.png"
+        "imagen": "/img/armas/Espada_Corta.png"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "caracteristica": "",
         "precio": "4",
         "stock": "10",
-        "imagen": "../assets/img/armas/Martillo_Ligero.png"
+        "imagen": "/img/armas/Martillo_Ligero.png"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "caracteristica": "",
         "precio": "30",
         "stock": "10",
-        "imagen": "../assets/img/armas/Espada_Larga.png"
+        "imagen": "/img/armas/Espada_Larga.png"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "caracteristica": "",
         "precio": "30",
         "stock": "10",
-        "imagen": "../assets/img/armas/Arco_Corto.png"
+        "imagen": "/img/armas/Arco_Corto.png"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "caracteristica": "Una vez por turno al golpear con el arco realiza 1d4 de daño de hielo adicional, y redsuce la velocidad del objetivo en 10 pies hasta el final de su próximo turno",
         "precio": "30",
         "stock": "10",
-        "imagen": "../assets/img/armas/Arco_Corto.png"
+        "imagen": "/img/armas/Arco_Corto.png"
     },
     {
         "id": "9",
@@ -96,7 +96,7 @@
         "caracteristica": "",
         "precio": "60",
         "stock": "10",
-        "imagen": "../assets/img/armas/Arco_Largo.png"
+        "imagen": "/img/armas/Arco_Largo.png"
     },
     {
         "id": "10",
@@ -107,7 +107,7 @@
         "caracteristica": "",
         "precio": "50",
         "stock": "0",
-        "imagen": "../assets/img/armas/Ballesta_Ligera.png"
+        "imagen": "/img/armas/Ballesta_Ligera.png"
     },
     {
         "id": "11",
@@ -118,6 +118,6 @@
         "caracteristica": "",
         "precio": "2",
         "stock": "0",
-        "imagen": "../assets/img/armas/Honda.png"
+        "imagen": "/img/armas/Honda.png"
     }
 ]
