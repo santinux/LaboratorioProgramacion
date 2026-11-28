@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 0rem;
+
+    p {
+        color: black;
+        font-style: italic;
+    }
+}

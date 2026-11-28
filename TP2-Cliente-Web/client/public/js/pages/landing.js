@@ -17,7 +17,7 @@ export const landing = (router) => {
     main.id = 'main-landing';
 
     imgIzquierda.className = 'img-izq';
-    imgIzquierda.src = 'assets/img/Nino.jpg';
+    imgIzquierda.src = 'assets/img/nino.jpg';
     imgIzquierda.alt = 'Nino, personaje de Los Peques';
 
     parrafoBienvenida.innerHTML = `Bienvenido a Duende,<br/> un mercado central<br/> en una tierra medieval`;
@@ -37,7 +37,7 @@ export const landing = (router) => {
     });
 
     imgDerecha.className = 'img-der';
-    imgDerecha.src = 'assets/img/ChichoMate.jpg';
+    imgDerecha.src = 'assets/img/chicho.jpg';
     imgDerecha.alt = 'Chicho, personaje de Los Peques';
 
     parrafoBienvenida.appendChild(botonIngresar);

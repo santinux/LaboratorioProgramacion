@@ -1,0 +1,52 @@
+#main-partida {
+    .contenedor-partida {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: burlywood;
+        border-radius: 1rem;
+        padding: 1rem;
+
+        h2 {
+            align-self: flex-start;
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .contenedor-tiendas {
+            align-self: flex-start;
+            gap: 0.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            /* Revisar funcionamiento independiente */
+            .card-tienda {
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                border: 1px solid black;
+                border-radius: 10px;
+                gap: 1.5rem;
+                width: 10rem;
+
+                span {
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    padding: 0.3rem;
+                    background-color: unset;
+                }
+                .tienda-abierta {
+                    background-color: green;
+                }
+                .tienda-cerrada {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}
